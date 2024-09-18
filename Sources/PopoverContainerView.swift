@@ -163,6 +163,7 @@ struct PopoverContainerView: View {
             }
         }
         .edgesIgnoringSafeArea(.all) /// All calculations are done from the screen bounds.
+        .environment(\.layoutDirection, .leftToRight)
     }
 
     /**
